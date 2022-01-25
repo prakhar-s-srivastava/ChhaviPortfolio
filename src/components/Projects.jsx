@@ -2,6 +2,7 @@ import React from 'react';
 import chhavi1 from "../images/Chhavi1.jpg"
 import chhavi2 from "../images/Chhavi2.jpg"
 import chhavi3 from "../images/Chhavi3.jpg"
+import chhavi4 from "../images/Chhavi4.jpg"
 
 function Projects() {
     return (
@@ -39,6 +40,16 @@ function Projects() {
                         <div className="dot"></div>
                         <div className="card-body">
                         <h5 className="card-title">Can Get Drunk Sometimes</h5>
+                        {/* <p className="card-text">This is a open source project which can be cloned and edited as per your wish to upgrade your old portfolios and make it fabulous.</p>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/MadhanDevlpr/fabulousfolio"><button type="button" className="btn btn-primary">View on Github</button></a> */}
+                        </div>
+                    </div>
+                    <div className="card" style={{
+                        backgroundImage : `url(${chhavi4})`
+                    }}>
+                        <div className="dot"></div>
+                        <div className="card-body">
+                        <h5 className="card-title">Sometimes</h5>
                         {/* <p className="card-text">This is a open source project which can be cloned and edited as per your wish to upgrade your old portfolios and make it fabulous.</p>
                         <a target="_blank" rel="noreferrer" href="https://github.com/MadhanDevlpr/fabulousfolio"><button type="button" className="btn btn-primary">View on Github</button></a> */}
                         </div>
