@@ -1,4 +1,7 @@
 import React from 'react';
+import chhavi1 from "../images/Chhavi1.jpg"
+import chhavi2 from "../images/Chhavi2.jpg"
+import chhavi3 from "../images/Chhavi3.jpg"
 
 function Projects() {
     return (
@@ -6,34 +9,41 @@ function Projects() {
             <div className="projects">
                 <h1 id="work">Work</h1>
                 <div className="projecttitle">
-                    <h1>Some of my projects.</h1>
+                    <h1>Some of my Pictures.</h1>
                 </div>
                 <div className="cards">
-                    <div  className="card" >
+                    <div className="card" style={{
+                        backgroundImage : `url(${chhavi1})`
+                    }}>
                         <div className="dot"></div>
                         <div className="card-body">
-                        <h5 className="card-title">Weather App</h5>
-                        <p className="card-text">This is a site made with html, css & js which simply shows the weather of any place accurately.</p>
-                        <a target="_blank" rel="noreferrer" href="https://github.com/MadhanDevlpr/weatherapp-js"><button type="button" className="btn btn-primary">View on Github</button></a>
+                        <h5 className="card-title">Look How stupid I am</h5>
+                        <p className="card-text"></p>
+                        {/* <a target="_blank" rel="noreferrer" href="https://github.com/MadhanDevlpr/weatherapp-js"><button type="button" className="btn btn-primary">View on Github</button></a> */}
                         </div>
                     </div>
-                    <div   className="card" >
+                    <div className="card"
+                    style={{
+                        backgroundImage : `url(${chhavi2})`
+                    }}>
                         <div className="dot"></div>
                         <div className="card-body">
-                        <h5 className="card-title">Javascript Clock</h5>
-                        <p className="card-text">This is a very common project made with javascript but I've made some awesome stylings and animations.</p>
-                        <a target="_blank" rel="noreferrer" href="https://github.com/MadhanDevlpr/Js-Clock"><button type="button" className="btn btn-primary">View on Github</button></a>
+                        <h5 className="card-title">Always Have Been</h5>
+                        {/* <p className="card-text">This is a very common project made with javascript but I've made some awesome stylings and animations.</p> */}
+                        {/* <a target="_blank" rel="noreferrer" href="https://github.com/MadhanDevlpr/Js-Clock"><button type="button" className="btn btn-primary">View on Github</button></a> */}
                         </div>
                     </div>
-                    <div className="card" >
+                    <div className="card" style={{
+                        backgroundImage : `url(${chhavi3})`
+                    }}>
                         <div className="dot"></div>
                         <div className="card-body">
-                        <h5 className="card-title">Fabulousfolio</h5>
-                        <p className="card-text">This is a open source project which can be cloned and edited as per your wish to upgrade your old portfolios and make it fabulous.</p>
-                        <a target="_blank" rel="noreferrer" href="https://github.com/MadhanDevlpr/fabulousfolio"><button type="button" className="btn btn-primary">View on Github</button></a>
+                        <h5 className="card-title">Can Get Drunk Sometimes</h5>
+                        {/* <p className="card-text">This is a open source project which can be cloned and edited as per your wish to upgrade your old portfolios and make it fabulous.</p>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/MadhanDevlpr/fabulousfolio"><button type="button" className="btn btn-primary">View on Github</button></a> */}
                         </div>
                     </div>
-                    <div  className="card" >
+                    {/* <div  className="card" >
                         <div className="dot"></div>
                         <div className="card-body">
                         <h5 className="card-title">Snake Game</h5>
@@ -80,7 +90,7 @@ function Projects() {
                         <p className="card-text">There have been lots of Graphical text to speech programs, but this is based on the terminal.</p>
                         <a target="_blank" rel="noreferrer" href="https://github.com/MadhanDevlpr/tts"><button type="button" className="btn btn-primary">View on Github</button></a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

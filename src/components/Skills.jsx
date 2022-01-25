@@ -12,21 +12,21 @@ const Skills = () => {
         className="skills"
       >
         <div className="icon">
-          <i className="fab fa-react"></i>
+          <i class="fas fa-cubes"></i>
         </div>
         <div className="icon">
-          <i className="fab fa-html5"></i>
+          <i class="fab fa-figma"></i>
         </div>
         <div className="icon">
-          <i className="fab fa-css3"></i>
+          <i class="fas fa-drafting-compass"></i>
         </div>
         <div className="icon">
-          <i className="fab fa-python"></i>
+          <i class="fas fa-palette"></i>
         </div>
         <div className="icon">
-          <i className="fab fa-bootstrap"></i>
+          <i class="fas fa-browser"></i>
         </div>
-        <div className="icon">
+        {/* <div className="icon">
           <i className="fab fa-js-square"></i>
         </div>
         <div className="icon">
@@ -34,7 +34,7 @@ const Skills = () => {
         </div>
         <div className="icon">
           <i className="fab fa-sass"></i>
-        </div>
+        </div> */}
       </div>
     </section>
   );
